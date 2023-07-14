@@ -9,4 +9,4 @@ Here's my knowledge base of what I've done in this challenge.
 ---
 **Day**|**About**|**Summary**|**Detail**
 :-----:|:-----:|:-----:|:-----:
-1|Repo setup|Repo template setup|[Day1](./week01/day1)
+1|Repo setup|Repo template setup|[Day1](./week01/day01)
