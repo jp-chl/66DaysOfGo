@@ -4,7 +4,7 @@ _Last update:  Jul 14, 2023_.
 
 ---
 
-Today, I've started a concurrency series, starting with the basics.
+Today, I've started a Concurrency series, beginning with the basics.
 
 ---
 
