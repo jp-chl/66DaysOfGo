@@ -119,19 +119,19 @@ repos:
 - [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md)
 - [AWS Go SDK v2](https://aws.github.io/aws-sdk-go-v2/docs/)
 - Golang tips:
-- Official doc:
+  - Official doc:
         - [How to write Go Code](https://go.dev/doc/code)
         - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
         - [Go Test Comments](https://github.com/golang/go/wiki/TestComments)
         - [Common Mistakes](https://github.com/golang/go/wiki/TableDrivenTests)
-    - https://github.com/golang/go/wiki/CommonMistakes
-    - https://www.agiratech.com/12-best-golang-agile-practices-we-must-follow
-    - http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
-    - https://www.bacancytechnology.com/blog/go-best-practices
-    - https://go-proverbs.github.io/
-    - (Official doc) [Testable examples in Go](https://go.dev/blog/examples)
-    - Style guideline for Go packages https://rakyll.org/style-packages/
-    - https://dmitri.shuralyov.com/idiomatic-go
-    - https://dave.cheney.net/practical-go/presentations/qcon-china.html
-    - (As of 2022 Dic) [Comparison of Golang mocking libraries](https://gist.github.com/maratori/8772fe158ff705ca543a0620863977c2)
-    - https://www.reddit.com/r/golang/comments/11ke9m7/is_gomock_still_maintained_and_recommended/
+  - https://github.com/golang/go/wiki/CommonMistakes
+  - https://www.agiratech.com/12-best-golang-agile-practices-we-must-follow
+  - http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
+  - https://www.bacancytechnology.com/blog/go-best-practices
+  - https://go-proverbs.github.io/
+  - (Official doc) [Testable examples in Go](https://go.dev/blog/examples)
+  - Style guideline for Go packages https://rakyll.org/style-packages/
+  - https://dmitri.shuralyov.com/idiomatic-go
+  - https://dave.cheney.net/practical-go/presentations/qcon-china.html
+  - (As of 2022 Dic) [Comparison of Golang mocking libraries](https://gist.github.com/maratori/8772fe158ff705ca543a0620863977c2)
+  - https://www.reddit.com/r/golang/comments/11ke9m7/is_gomock_still_maintained_and_recommended/
