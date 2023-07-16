@@ -88,7 +88,7 @@ func main() {
 }
 ```
 
-If you run it several times, normally it'll print `end...` without waiting for `myFunc` function, and sometimes it would print a number.
+If you run it several times, normally it'll print `end...` without waiting for `myFunc` function, and sometimes it might print a number.
 
 ```bash
 go run goroutines.go
@@ -167,9 +167,13 @@ However, with this code, the main process does not sync with each goroutine, and
 
 Channels are the pipes that connect concurrent goroutines. You can send values into channels from one goroutine and receive those values into another goroutine.
 
-Creating a channel can be very simple. Just call make with the keyword `chan` defining the channel data type.
+Creating a channel is very simple. Just call `make` with the keyword `chan` defining the channel data type, like:
 
-For instance:
+```go
+myChannel := make(chan int)
+```
+
+Channel example:
 
 ```go
 func main() {
@@ -199,6 +203,6 @@ some data
 
 ## References
 
-- [Golang Concurrency Tour](https://go.dev/tour/concurrency/1)
-- [Google I/O 2012 - Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs)
 - [Channels (Go by Example)](https://gobyexample.com/channels)
+- https://stackoverflow.com/questions/11943841/what-is-channel-buffer-size
+
