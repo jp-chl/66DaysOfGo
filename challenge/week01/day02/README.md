@@ -46,7 +46,7 @@ go-unit-tests........................................(no files to check)Skipped
 
 ## Concurrency basics - Goroutines
 
-Golang provides one simple way to handle concurrency called a "goroutine" which is basically a lightweight thread managed by the Go runtime.
+Golang provides one simple way to handle concurrency called a "_goroutine_" which is basically a lightweight thread managed by the Go runtime.
 
 For instance, the following program will print the numbers sequentially.
 
