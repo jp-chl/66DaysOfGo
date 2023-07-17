@@ -155,7 +155,7 @@ Let's dig into the `merge` function:
 
 - `sync.WaitGroup`: a simple struct type that allows to wait for a collection of goroutines to finish executing. The zero value for a WaitGroup is a group with no goroutines.
 - `wg.Add(len(channels)`: adds the number of input channels `cs` to the wait group `wg`.
-- `wg.Done()`: decreases the WaiGroup counter by one. When each goroutine finishes reading values from its input channel and writes to the `out`` channel, then signals that it's done.
+- `wg.Done()`: decreases the WaiGroup counter by one. When each goroutine finishes reading values from its input channel and writes to the `out` channel, then signals that it's done.
 - `wg.Wait()`: blocks the goroutine where it's called until the WaitGroup counter is zero, i.e. it waits until all goroutines added with `wg.Add()` have called `wg.Done()`.
 - To avoid a `panic` due to sending data to a closed channel, the `close` is done after the `Wait` call.
 
