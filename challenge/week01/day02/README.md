@@ -52,15 +52,15 @@ For instance, the following program will print the numbers sequentially.
 
 ```go
 func myFunc(num int) {
-	fmt.Println(num)
+    fmt.Println(num)
 }
 
 func main() {
-	myFunc(1)
-	myFunc(2)
-	myFunc(3)
-	myFunc(4)
-	fmt.Println("end...")
+    myFunc(1)
+    myFunc(2)
+    myFunc(3)
+    myFunc(4)
+    fmt.Println("end...")
 }
 ```
 
@@ -79,12 +79,12 @@ To run them concurrently ([not in parallel](https://www.youtube.com/watch?v=f6kd
 
 ```go
 func main() {
-	go myFunc(1) // each go call will spawn an independent child process
-	go myFunc(2)
-	go myFunc(3)
-	go myFunc(4)
+    go myFunc(1) // each go call will spawn an independent child process
+    go myFunc(2)
+    go myFunc(3)
+    go myFunc(4)
 
-	fmt.Println("end...")
+    fmt.Println("end...")
 }
 ```
 
@@ -119,14 +119,14 @@ import "time"
 // ...
 
 func main() {
-	go myFunc(1)
-	go myFunc(2)
-	go myFunc(3)
-	go myFunc(4)
+    go myFunc(1)
+    go myFunc(2)
+    go myFunc(3)
+    go myFunc(4)
 
-	time.Sleep(time.Second * 1)
+    time.Sleep(time.Second * 1)
 
-	fmt.Println("end...")
+    fmt.Println("end...")
 }
 ```
 
@@ -177,16 +177,16 @@ Channel example:
 
 ```go
 func main() {
-	myChannel := make(chan string)
+    myChannel := make(chan string)
 
-	// anonymous function
-	go func() {
-		myChannel <- "some data"
-	}()
+    // anonymous function
+    go func() {
+        myChannel <- "some data"
+    }()
 
-	message := <-myChannel
+    message := <-myChannel
 
-	fmt.Println(message)
+    fmt.Println(message)
 }
 ```
 
