@@ -44,23 +44,23 @@ For example, the following snippet will print a channel message as soon as it's 
 
 ```go
 func main() {
-	channel1 := make(chan string)
-	channel2 := make(chan string)
+    channel1 := make(chan string)
+    channel2 := make(chan string)
 
-	go func() {
-		channel1 <- "data for channel 1"
-	}()
+    go func() {
+        channel1 <- "data for channel 1"
+    }()
 
-	go func() {
-		channel2 <- "data for channel 2"
-	}()
+    go func() {
+        channel2 <- "data for channel 2"
+    }()
 
-	select {
-	case msgFromChannel1 := <-channel1:
-		fmt.Println(msgFromChannel1)
-	case msgFromChannel2 := <-channel2:
-		fmt.Println(msgFromChannel2)
-	}
+    select {
+    case msgFromChannel1 := <-channel1:
+        fmt.Println(msgFromChannel1)
+    case msgFromChannel2 := <-channel2:
+        fmt.Println(msgFromChannel2)
+    }
 }
 ```
 
@@ -84,30 +84,30 @@ data for channel 2
 This pattern allows to act whenever a channel is ready. If multiple are ready, a random one is picked.
 
 ```go
-	myChannel1 := make(chan int, 3)
-	myChannel2 := make(chan int, 5)
+    myChannel1 := make(chan int, 3)
+    myChannel2 := make(chan int, 5)
 
-	mySlice := []int{1, 2, 3, 4, 5, 6}
+    mySlice := []int{1, 2, 3, 4, 5, 6}
 
-	for _, number := range mySlice {
-		select {
-		case myChannel1 <- number:
-			fmt.Println("Sending to Channel 1")
-		case myChannel2 <- number:
-			fmt.Println("Sending to Channel 2")
-		}
-	}
+    for _, number := range mySlice {
+        select {
+        case myChannel1 <- number:
+            fmt.Println("Sending to Channel 1")
+        case myChannel2 <- number:
+            fmt.Println("Sending to Channel 2")
+        }
+    }
 
-	close(myChannel1)
-	close(myChannel2)
+    close(myChannel1)
+    close(myChannel2)
 
-	for message := range myChannel2 {
-		fmt.Println("Receiving number ", message)
-	}
+    for message := range myChannel2 {
+        fmt.Println("Receiving number ", message)
+    }
 
-	for message := range myChannel1 {
-		fmt.Println("Receiving number ", message)
-	}
+    for message := range myChannel1 {
+        fmt.Println("Receiving number ", message)
+    }
 ```
 
 Sample outputs:
@@ -151,29 +151,29 @@ A channel can be passed as a parameter and act as a stop trigger in the select s
 
 ```go
 func working(done <-chan bool) {
-	for {
-		select {
-		default:
-			fmt.Println("working...")
-			time.Sleep(time.Second * 1)
-		case <-done:
-			fmt.Println("stopping")
-			return
-		}
-	}
+    for {
+        select {
+        default:
+            fmt.Println("working...")
+            time.Sleep(time.Second * 1)
+        case <-done:
+            fmt.Println("stopping")
+            return
+        }
+    }
 }
 
 func main() {
-	done := make(chan bool)
+    done := make(chan bool)
 
-	go working(done)
+    go working(done)
 
-	time.Sleep(time.Second * 3)
+    time.Sleep(time.Second * 3)
 
-	close(done)
+    close(done)
 
-	// To print "stopping", you can add a delay after close
-	//time.Sleep(time.Millisecond * 5)
+    // To print "stopping", you can add a delay after close
+    //time.Sleep(time.Millisecond * 5)
 }
 ```
 

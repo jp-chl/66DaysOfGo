@@ -28,58 +28,58 @@ The following example creates a pipeline that put a list of integers into a chan
 ```go
 // first stage
 func listToChannel(nums ...int) <-chan int {
-	out := make(chan int)
+    out := make(chan int)
 
-	go func() {
-		for _, num := range nums {
-			out <- num
-		}
-		close(out)
-	}()
+    go func() {
+        for _, num := range nums {
+            out <- num
+        }
+        close(out)
+    }()
 
-	return out
+    return out
 }
 ```
 
 ```go
 // second stage
 func cube(in <-chan int) <-chan int {
-	out := make(chan int)
+    out := make(chan int)
 
-	go func() {
-		for num := range in {
-			out <- num * num * num
-		}
-		close(out)
-	}()
+    go func() {
+        for num := range in {
+            out <- num * num * num
+        }
+        close(out)
+    }()
 
-	return out
+    return out
 }
 ```
 
 ```go
 // final stage
 func average(in <-chan int) float64 {
-	sum := 0
-	elements := 0
-	for num := range in {
-		sum += num
-		elements++
-	}
-	return (float64)(sum / elements)
+    sum := 0
+    elements := 0
+    for num := range in {
+        sum += num
+        elements++
+    }
+    return (float64)(sum / elements)
 }
 ```
 
 ```go
 // pipeline
 func main() {
-	nums := []int{1, 2, 3, 4, 5}
+    nums := []int{1, 2, 3, 4, 5}
 
-	listAsChannel := listToChannel(nums...)
-	cubesChannel := cube(listAsChannel)
-	result := average(cubesChannel)
+    listAsChannel := listToChannel(nums...)
+    cubesChannel := cube(listAsChannel)
+    result := average(cubesChannel)
 
-	fmt.Println("Average of the cubes is", result)
+    fmt.Println("Average of the cubes is", result)
 }
 ```
 
@@ -96,58 +96,58 @@ A fan-in pattern can be implemented by leveraging the (native) `sync` package.
 
 ```go
 func successor(in <-chan int) <-chan int {
-	out := make(chan int)
+    out := make(chan int)
 
-	go func() {
-		for num := range in {
-			out <- num + 1
-		}
-		close(out)
-	}()
+    go func() {
+        for num := range in {
+            out <- num + 1
+        }
+        close(out)
+    }()
 
-	return out
+    return out
 }
 ```
 
 ```go
 func main() {
-	listAsChannel1 := listToChannel(1, 2, 3, 4, 5)
-	listAsChannel2 := listToChannel(10, 11, 12, 13, 14)
+    listAsChannel1 := listToChannel(1, 2, 3, 4, 5)
+    listAsChannel2 := listToChannel(10, 11, 12, 13, 14)
 
-	c1 := successor(listAsChannel1)
-	c2 := successor(listAsChannel2)
+    c1 := successor(listAsChannel1)
+    c2 := successor(listAsChannel2)
 
-	for num := range merge(c1, c2) {
-		fmt.Println(num)
-	}
+    for num := range merge(c1, c2) {
+        fmt.Println(num)
+    }
 }
 ```
 
 ```go
 // fan-in
 func merge(channels ...<-chan int) <-chan int {
-	var wg sync.WaitGroup
-	out := make(chan int)
+    var wg sync.WaitGroup
+    out := make(chan int)
 
-	output := func(c <-chan int) {
-		for n := range c {
-			out <- n
-		}
-		wg.Done()
-	}
+    output := func(c <-chan int) {
+        for n := range c {
+            out <- n
+        }
+        wg.Done()
+    }
 
-	wg.Add(len(channels))
+    wg.Add(len(channels))
 
-	for _, c := range channels {
-		go output(c)
-	}
+    for _, c := range channels {
+        go output(c)
+    }
 
-	go func() {
-		wg.Wait()
-		close(out)
-	}()
+    go func() {
+        wg.Wait()
+        close(out)
+    }()
 
-	return out
+    return out
 }
 ```
 
