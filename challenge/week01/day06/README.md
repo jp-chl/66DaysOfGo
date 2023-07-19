@@ -4,7 +4,7 @@ _Last update:  Jul 18, 2023_.
 
 ---
 
-Today, I've continued with the Concurrency series, this time understanding a more realistic scenario with a parallel approach.
+Today, I've continued with the Concurrency series, this time understanding a more realistic scenario with a bounded parallelism approach.
 
 ---
 
