@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Jul 17, 2023_.
+* _Last update: Jul 18, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -14,3 +14,4 @@ Here's my knowledge base of what I've done in this challenge.
 3|Concurrency series|Select, For-Select and "done-channel" patterns|[Day3](./week01/day03)
 4|Concurrency series|Pipeline and fan-in patterns|[Day4](./week01/day04)
 4|Concurrency series|done-channel in pipelines|[Day5](./week01/day05)
+4|Concurrency series|bounded parallelism|[Day6](./week01/day06)
