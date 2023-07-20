@@ -44,6 +44,6 @@ And here there are some common good practices in Golang:
 
 ## References
 
-- [https://en.wikipedia.org/wiki/Communicating_sequential_processes](Tony Hoare's CSP paper)
-- [https://divan.dev/posts/go_concurrency_visualize/](Visualizing Concurrency in Go)
-- [https://github.com/golang-basics/concurrency](Concurrency in Go series)
+- [Tony Hoare's CSP paper](https://en.wikipedia.org/wiki/Communicating_sequential_processes)
+- [Visualizing Concurrency in Go](https://divan.dev/posts/go_concurrency_visualize/)
+- [Concurrency in Go series](https://github.com/golang-basics/concurrency)
