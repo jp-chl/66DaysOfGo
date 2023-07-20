@@ -13,5 +13,6 @@ Here's my knowledge base of what I've done in this challenge.
 2|Concurrency series|Concurrency basics|[Day2](./week01/day02)
 3|Concurrency series|Select, For-Select and "done-channel" patterns|[Day3](./week01/day03)
 4|Concurrency series|Pipeline and fan-in patterns|[Day4](./week01/day04)
-4|Concurrency series|done-channel in pipelines|[Day5](./week01/day05)
-4|Concurrency series|bounded parallelism|[Day6](./week01/day06)
+5|Concurrency series|done-channel in pipelines|[Day5](./week01/day05)
+6|Concurrency series|bounded parallelism|[Day6](./week01/day06)
+7|Concurrency series|good and bad practices|[Day7](./week01/day07)
