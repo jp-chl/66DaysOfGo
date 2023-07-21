@@ -4,7 +4,7 @@ _Last update:  Jul 20, 2023_.
 
 ---
 
-Today, I've started a new series related with WebAssembly (Wasm).
+Today, I've started a new series related to WebAssembly (Wasm).
 
 ---
 
