@@ -16,4 +16,4 @@ Here's my knowledge base of what I've done in this challenge.
 5|Concurrency series|done-channel in pipelines|[Day 5](./week01/day05)
 6|Concurrency series|bounded parallelism|[Day 6](./week01/day06)
 7|Concurrency series|good and bad practices|[Day 7](./week01/day07)
-8|WebAssembly series|Wasm basics and Go|[Day 8](./week01/day08)
+8|WebAssembly series|Wasm basics and Go|[Day 8](./week02/day08)
