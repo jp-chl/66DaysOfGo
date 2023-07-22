@@ -107,7 +107,7 @@ If you open [http://localhost:8000](http://localhost:8000) on your browser (e.g.
 
 But if see the console, you'll notice the message from the .go program.
 
-<img src="readme-images/chrome1.png" alt="Hello WebAssembly World! on console" width="200"/>
+<img src="readme-images/chrome1.png" alt="Hello WebAssembly World! on console" width="350"/>
 
 ```bash
 $ python3 -m http.server
@@ -137,7 +137,7 @@ $ python3 -m http.server
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ```
 
-<img src="readme-images/chrome2.png" alt="Hello again WebAssembly World! on console" width="200"/>
+<img src="readme-images/chrome2.png" alt="Hello again WebAssembly World! on console" width="350"/>
 
 ---
 
