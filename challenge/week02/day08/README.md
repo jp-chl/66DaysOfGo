@@ -1,6 +1,6 @@
 # Day 8 of #66DaysOfGo
 
-_Last update:  Jul 20, 2023_.
+_Last update:  Jul 21, 2023_.
 
 ---
 
@@ -10,7 +10,10 @@ Today, I've started a new series related to WebAssembly (Wasm).
 
 ## What is WebAssembly?
 
-WebAssembly, often abbreviated as Wasm, is a binary instruction format designed as a portable target for the compilation of high-level languages like C, C++, Go and Rust. It's designed to be efficient and fast, safe, and platform-independent. It's developed to enable the efficient execution of code in web browsers but is designed to be utilized in other environments as well.
+According to its [home page](https://webassembly.org/):
+> _WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications._
+
+It's designed to be efficient and fast, safe, and platform-independent. It's developed to enable the efficient execution of code in web browsers but is designed to be utilized in other environments as well.
 
 <img src="readme-images/twitter.png" alt="tweet about wasm vs docker" width="500"/>
 

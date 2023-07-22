@@ -17,3 +17,4 @@ Here's my knowledge base of what I've done in this challenge.
 6|Concurrency series|bounded parallelism|[Day 6](./week01/day06)
 7|Concurrency series|good and bad practices|[Day 7](./week01/day07)
 8|WebAssembly series|Wasm basics and Go|[Day 8](./week02/day08)
+9|WebAssembly series|WebAssembly Hello World in Go|[Day 9](./week02/day09)
