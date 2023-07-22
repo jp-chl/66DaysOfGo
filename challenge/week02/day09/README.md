@@ -19,7 +19,7 @@ Today, I've continued with the WebAssembly series, doing a simple Hello World!
 ## Setup
 
 - Ensure you have the environment variable GOROOT already set.
-- Run a simple webserver in your local. In my case I've used the python built-in. Be mindful that it caches the .wasm file.
+- Run a simple webserver in your local. In my case I've used the python built-in one. Be mindful that it caches the .wasm file.
 
 ### Hello World program
 
@@ -52,6 +52,7 @@ GOOS=js GOARCH=wasm go build -o main.wasm
 
 ```bash
 # this will create a go.mod file in your local directory
+# you can change the domain (e.g. your github repo)
 go mod init example.com
 ```
 
@@ -105,7 +106,7 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 
 If you open [http://localhost:8000](http://localhost:8000) on your browser (e.g. Google Chrome), you'll see a blank page.
 
-But if see the console, you'll notice the message from the .go program.
+But in the console, you'll notice the message from the .go program.
 
 <img src="readme-images/chrome1.png" alt="Hello WebAssembly World! on console" width="350"/>
 
