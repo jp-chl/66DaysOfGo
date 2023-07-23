@@ -10,7 +10,7 @@ Today, I've continued with the WebAssembly series, this time reading an article 
 
 ## WebAssembly Future Skills
 
-> _Based on [https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/](https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/)_ by By [Lin Clark](https://twitter.com/linclark), [Till Schneidereit](https://hacks.mozilla.org/author/tschneidereitmozilla-com/), [Luke Wagner](https://hacks.mozilla.org/author/lwagnermozilla-com/).
+> _Based on [https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/](https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/)_ by [Lin Clark](https://twitter.com/linclark), [Till Schneidereit](https://hacks.mozilla.org/author/tschneidereitmozilla-com/), [Luke Wagner](https://hacks.mozilla.org/author/lwagnermozilla-com/).
 
 <img src="https://hacks.mozilla.org/files/2018/10/01-07-runtime-09-final-e1539904436477.png" alt="WebAssembly’s skill tree" width="350"/>
 
