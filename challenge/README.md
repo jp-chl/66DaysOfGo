@@ -19,3 +19,4 @@ Here's my knowledge base of what I've done in this challenge.
 8|WebAssembly series|Wasm basics and Go|[Day 8](./week02/day08)
 9|WebAssembly series|WebAssembly Hello World in Go|[Day 9](./week02/day09)
 10|WebAssembly series|Reading about WebAssembly Future Skills|[Day 10](./week02/day10)
+11|WebAssembly series|Understanding an approach to manipulate the DOM structure using Go|[Day 11](./week02/day11)
