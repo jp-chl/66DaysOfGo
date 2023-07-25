@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Jul 22, 2023_.
+* _Last update: Jul 24, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -20,3 +20,4 @@ Here's my knowledge base of what I've done in this challenge.
 9|WebAssembly series|WebAssembly Hello World in Go|[Day 9](./week02/day09)
 10|WebAssembly series|Reading about WebAssembly Future Skills|[Day 10](./week02/day10)
 11|WebAssembly series|Understanding an approach to manipulate the DOM structure using Go|[Day 11](./week02/day11)
+12|WebAssembly series|Understanding how to use a Golang function from the Browser console|[Day 12](./week02/day12)
