@@ -185,7 +185,7 @@ The final output will show you two new endpoints deployed, behind a Rest API, as
 
 ```bash
 curl -s -X GET https://k7azu6and9.execute-api.us-east-1.amazonaws.com/dev/hello | jq .
-```bash
+```
 
 ```json
 {
