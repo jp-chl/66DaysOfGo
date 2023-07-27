@@ -28,7 +28,6 @@ Today, I've set up:
 
 <img src="readme-images/install-pkg-2.png" alt="drawing" width="200"/>
 
-
 ```bash
 $ go version
 go version go1.20.6 darwin/amd64
@@ -80,7 +79,6 @@ As of 2023 July, AWS natively supports Golang runtime 1.x for Lambda development
 SDK V2 is recommended. In January 2021, AWS released the SDK for Go Version 2 which requires Go 1.15 or higher.
 
 In the official AWS documentation, more details can be found in the [V2 release notes](https://aws.amazon.com/blogs/developer/aws-sdk-for-go-version-2-general-availability/) and in the [migration guide](https://aws.github.io/aws-sdk-go-v2/docs/migrating/).
-
 
 #### pre-commit
 
