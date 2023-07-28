@@ -21,7 +21,7 @@ Today, I've continued with the AWS series, moving the Lambda function project fr
 
 ## Setup project
 
-- Copy the folder `test-aws-go` from [day 14](../day14/)
+- Copy the folder `test-aws-go` from [day 14](../../week02/day14/)
 - Move the golang source code from the `hello` directory to `test-aws-go`
 - Modify the Makefile to retrieve the source code from the directory `test-aws-go` (instead of `hello`)
 - Set a RAM memory to the Lambda function in the serverless.yml manifest (default: 1024)
@@ -98,7 +98,7 @@ functions:
 
 ## Testing
 
-Manually insert items into the table, as in the [day 14](../day14/).
+Manually insert items into the table, as in the [day 14](../../week02/day14/).
 
 ```bash
 curl -s -X GET https://uytjwexx30.execute-api.us-east-1.amazonaws.com/dev/hello/1 | jq .
