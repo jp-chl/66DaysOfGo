@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Jul 26, 2023_.
+* _Last update: Jul 27, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -23,3 +23,4 @@ Here's my knowledge base of what I've done in this challenge.
 12|WebAssembly series|Understanding how to use a Golang function from the Browser console|[Day 12](./week02/day12)
 13|AWS series|AWS setup|[Day 13](./week02/day13)
 14|AWS series|Reading an item from a DynamoDB table using SDK V2|[Day 14](./week02/day14)
+15|AWS series|Splitting Lambda function project into modules|[Day 15](./week03/day15)
