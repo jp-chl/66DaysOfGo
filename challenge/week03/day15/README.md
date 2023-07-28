@@ -47,8 +47,21 @@ func main() {
 And the handler:
 
 ```go
-// ...
-// shortened for brevity
+package handler
+
+import (
+    "context"
+    "encoding/json"
+    "net/http"
+
+    "myapp/db"
+
+    "github.com/aws/aws-lambda-go/events"
+)
+
+type Request events.APIGatewayProxyRequest
+type Response events.APIGatewayProxyResponse
+
 func HandleRequest(ctx context.Context, request Request) (Response, error) {
     item, err := db.GetItem(ctx, request.PathParameters["id"])
     if err != nil {
@@ -61,8 +74,17 @@ func HandleRequest(ctx context.Context, request Request) (Response, error) {
 And the db:
 
 ```go
-// ...
-// shortened for brevity
+package db
+
+import (
+    "context"
+
+    "github.com/aws/aws-sdk-go-v2/aws"
+    "github.com/aws/aws-sdk-go-v2/config"
+    "github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue"
+    "github.com/aws/aws-sdk-go-v2/service/dynamodb"
+    "github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
+)
 
 type Item struct {
     ID   string `json:"id"`
