@@ -40,6 +40,7 @@ package:
 functions:
   hello:
     handler: bin/hello
+    memorySize: 128
     events:
       - http:
           path: /hello/{id}
