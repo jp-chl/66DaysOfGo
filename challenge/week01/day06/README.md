@@ -171,7 +171,7 @@ func MD5All(root string) (map[string][md5.Size]byte, error) {
     var wg sync.WaitGroup
     const numDigesters = 20
     wg.Add(numDigesters)
-    
+
     for i := 0; i < numDigesters; i++ {
         go func() {
             digester(done, paths, c)
