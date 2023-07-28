@@ -205,4 +205,3 @@ some data
 
 - [Channels (Go by Example)](https://gobyexample.com/channels)
 - https://stackoverflow.com/questions/11943841/what-is-channel-buffer-size
-
