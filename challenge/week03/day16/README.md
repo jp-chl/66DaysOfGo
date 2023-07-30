@@ -1,6 +1,6 @@
 # Day 16 of #66DaysOfGo
 
-_Last update:  Jul 28, 2023_.
+_Last update:  Jul 29, 2023_.
 
 ---
 
@@ -20,7 +20,8 @@ Today, I've started a new series related to testing with Go.
 Clone the following repo which is based on [day 15](../day15/):
 
 ```bash
-git clone --single-branch --branch notest https://github.com/jp-chl/test-go-aws-dynamo.git
+BRANCH=notest
+git clone --single-branch --branch ${BRANCH} https://github.com/jp-chl/test-go-aws-dynamo.git
 ```
 
 ## Calculating Unit test coverage
