@@ -90,7 +90,7 @@ func handleError(err error) (Response, error) {
         Body:       http.StatusText(http.StatusInternalServerError),
     }, err
 }
-```go
+```
 
 ```go
 // db.go
