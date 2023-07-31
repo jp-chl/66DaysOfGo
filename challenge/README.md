@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Jul 29, 2023_.
+* _Last update: Jul 30, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -26,3 +26,4 @@ Here's my knowledge base of what I've done in this challenge.
 15|AWS series|Splitting Lambda function project into modules|[Day 15](./week03/day15)
 16|Testing|Calculating Unit test coverage|[Day 16](./week03/day16)
 17|Testing|Adding Unit tests to AWS Lambda sample|[Day 17](./week03/day17)
+17|Testing|Adding more Unit tests to the db package|[Day 18](./week03/day18)
