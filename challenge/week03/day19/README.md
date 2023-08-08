@@ -23,7 +23,7 @@ The main client relies on the factory to create instances, allowing for a cleane
 
 ### UML diagram
 
-<img src="https://i1.wp.com/golangbyexample.com/wp-content/uploads/2019/11/Factory-Design-Pattern-1.jpg?w=807&ssl=1g" alt="Factory design pattern UML example" width="350"/>
+<img src="https://i1.wp.com/golangbyexample.com/wp-content/uploads/2019/11/Factory-Design-Pattern-1.jpg?w=807&ssl=1g" alt="Factory design pattern UML example" width="600"/>
 
 ### Code example
 
