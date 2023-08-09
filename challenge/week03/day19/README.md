@@ -4,7 +4,7 @@ _Last update:  Aug 07, 2023_.
 
 ---
 
-Today, I've started a new series related to Design Patterns with Go.
+Today, I've started a new series related to Design Patterns with Go, starting with the creational ones.
 
 ---
 
@@ -23,7 +23,7 @@ The main client relies on the factory to create instances, allowing for a cleane
 
 ### UML diagram
 
-<img src="https://i1.wp.com/golangbyexample.com/wp-content/uploads/2019/11/Factory-Design-Pattern-1.jpg?w=807&ssl=1g" alt="Factory design pattern UML example" width="600"/>
+<img src="https://refactoring.guru/images/patterns/diagrams/factory-method/structure-2x.png" alt="Factory design pattern UML example" width="600"/>
 
 ### Code example
 
@@ -129,3 +129,4 @@ Car: bmw, power: 300
 ## References
 
 - [All Design Patterns in Go](https://golangbyexample.com/all-design-patterns-golang/)
+- [https://refactoring.guru/design-patterns/factory-method](https://refactoring.guru/design-patterns/factory-method)
