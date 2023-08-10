@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Aug 07, 2023_.
+* _Last update: Aug 09, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -28,4 +28,5 @@ Here's my knowledge base of what I've done in this challenge.
 17|Testing|Adding Unit tests to AWS Lambda sample|[Day 17](./week03/day17)
 18|Testing|Adding more Unit tests to the db package|[Day 18](./week03/day18)
 19|Design Patterns|Creational: Factory|[Day 19](./week03/day19)
-19|Design Patterns|Creational: Abstract Factory|[Day 20](./week03/day20)
+20|Design Patterns|Creational: Abstract Factory|[Day 20](./week03/day20)
+21|Design Patterns|Creational: Builder|[Day 21](./week03/day21)
