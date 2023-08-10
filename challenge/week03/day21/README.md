@@ -25,7 +25,7 @@ Advantages include varying internal representation and encapsulating constructio
 
 ### UML diagram
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/W3sDesign_Builder_Design_Pattern_UML.jpg" alt="Builder Pattern UML example" width="600"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/W3sDesign_Builder_Design_Pattern_UML.jpg" alt="Builder Pattern UML example" width="900"/>
 
 ### Code example
 
