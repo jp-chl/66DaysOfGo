@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Aug 09, 2023_.
+* _Last update: Aug 10, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -30,3 +30,4 @@ Here's my knowledge base of what I've done in this challenge.
 19|Design Patterns|Creational: Factory|[Day 19](./week03/day19)
 20|Design Patterns|Creational: Abstract Factory|[Day 20](./week03/day20)
 21|Design Patterns|Creational: Builder|[Day 21](./week03/day21)
+22|Design Patterns|Creational: Singleton|[Day 22](./week04/day22)
