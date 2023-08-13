@@ -17,6 +17,7 @@ Today, I've continued with the Design Patterns series, with the Prototype.
 
 ## Prototype pattern
 
+The Prototype pattern enables object cloning by delegating the process to the objects themselves, using a shared interface. This allows cloning without tightly coupling code to object classes. Objects implementing this interface contain a clone method, creating new instances and transferring old object's field values. Cloning is beneficial for objects with many fields or configurations, offering an alternative to subclassing.
 
 ### UML diagram
 
