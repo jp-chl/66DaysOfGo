@@ -21,7 +21,7 @@ An adapter is a special object that converts one object's interface into a forma
 
 ### UML diagram
 
-<img src="https://i1.wp.com/golangbyexample.com/wp-content/uploads/2019/11/Adapter-Design-Pattern-1.jpg?w=561&ssl=1" alt="Adapter Pattern UML example" width="450"/>
+<img src="https://i1.wp.com/golangbyexample.com/wp-content/uploads/2019/11/Adapter-Design-Pattern-1.jpg?w=561&ssl=1" alt="Adapter Pattern UML example" width="550"/>
 
 ### Code example
 
