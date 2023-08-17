@@ -56,7 +56,6 @@ func main() {
     etl := &ETLFacade{&ComplexETL{}}
     etl.Process()
 }
-
 ```
 
 ```bash
@@ -70,4 +69,4 @@ Loading...
 
 ## References
 
-- []()
+- [https://refactoring.guru/design-patterns/facade](https://refactoring.guru/design-patterns/facade)
