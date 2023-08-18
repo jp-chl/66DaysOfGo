@@ -38,3 +38,4 @@ Here's my knowledge base of what I've done in this challenge.
 27|Design Patterns|Structural: Decorator|[Day 27](./week04/day27)
 28|Design Patterns|Structural: Facade|[Day 28](./week04/day28)
 29|Design Patterns|Structural: Proxy|[Day 29](./week05/day29)
+30|Design Patterns|Structural: Flyweight|[Day 30](./week05/day30)
