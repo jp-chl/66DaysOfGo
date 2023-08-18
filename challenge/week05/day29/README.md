@@ -21,7 +21,7 @@ This pattern involves using a proxy class to provide an interface to another obj
 
 ### UML diagram
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/W3sDesign_Proxy_Design_Pattern_UML.jpg" alt="Proxy Pattern UML example" width="450"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/W3sDesign_Proxy_Design_Pattern_UML.jpg" alt="Proxy Pattern UML example" width="550"/>
 
 ### Code example
 
