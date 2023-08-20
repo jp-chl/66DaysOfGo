@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Aug 17, 2023_.
+* _Last update: Aug 19, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -39,3 +39,4 @@ Here's my knowledge base of what I've done in this challenge.
 28|Design Patterns|Structural: Facade|[Day 28](./week04/day28)
 29|Design Patterns|Structural: Proxy|[Day 29](./week05/day29)
 30|Design Patterns|Structural: Flyweight|[Day 30](./week05/day30)
+31|Design Patterns|Behavioral: Chain of Responsibility|[Day 31](./week05/day31)
