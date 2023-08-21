@@ -147,4 +147,4 @@ Cooking in progress
 
 ## References
 
-- [https://refactoring.guru/design-patterns/flyweight](https://refactoring.guru/design-patterns/flyweight)
+- [https://refactoring.guru/design-patterns/chain-of-responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
