@@ -17,6 +17,7 @@ Today, I've continued with the Design Patterns series, with the Strategy.
 
 ## Strategy pattern
 
+This pattern allows runtime selection of algorithms. It separates algorithm implementation from client code, promoting flexibility and reusability. It enables dynamic algorithm choice for tasks like data validation based on factors such as data type or source. Strategies are encapsulated and interchangeable, avoiding duplication, and are stored as references for retrieval, often using function pointers or classes.
 
 ### UML diagram
 
@@ -84,6 +85,8 @@ $ go run strategy.go
 Paying 200.5 using Debit Card
 Paying 30.2 using Credit Cards
 Paying 123.7 using Bitcoin
+```
+
 ---
 
 ## References
