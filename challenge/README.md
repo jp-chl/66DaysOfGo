@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Aug 27, 2023_.
+* _Last update: Aug 28, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -47,4 +47,5 @@ Here's my knowledge base of what I've done in this challenge.
 36|Design Patterns|Behavioral: Observer|[Day 36](./week06/day36)
 37|Design Patterns|Behavioral: State|[Day 37](./week06/day37)
 38|Design Patterns|Behavioral: Strategy|[Day 38](./week06/day38)
-38|Design Patterns|Behavioral: Template|[Day 39](./week06/day39)
+39|Design Patterns|Behavioral: Template|[Day 39](./week06/day39)
+40|Design Patterns|Behavioral: Visitor|[Day 40](./week06/day40)
