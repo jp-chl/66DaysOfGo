@@ -49,4 +49,4 @@ Here's my knowledge base of what I've done in this challenge.
 38|Design Patterns|Behavioral: Strategy|[Day 38](./week06/day38)
 39|Design Patterns|Behavioral: Template|[Day 39](./week06/day39)
 40|Design Patterns|Behavioral: Visitor|[Day 40](./week06/day40)
-41|Clean architecture series|Exploration|[Day 40](./week06/day41)
+41|Clean architecture series|Exploration|[Day 41](./week06/day41)
