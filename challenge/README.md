@@ -51,3 +51,4 @@ Here's my knowledge base of what I've done in this challenge.
 40|Design Patterns|Behavioral: Visitor|[Day 40](./week06/day40)
 41|Clean architecture series|Exploration|[Day 41](./week06/day41)
 42|Clean architecture series|Domain|[Day 42](./week06/day42)
+43|Clean architecture series|Domain|[Day 43](./week07/day43)
