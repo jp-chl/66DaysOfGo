@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Sep 06, 2023_.
+* _Last update: Sep 07, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -55,3 +55,4 @@ Here's my knowledge base of what I've done in this challenge.
 44|Clean architecture series|Basic skeleton|[Day 44](./week07/day44)
 45|Clean architecture series|Basic skeleton|[Day 45](./week07/day45)
 46|Clean architecture series|Basic skeleton|[Day 46](./week07/day46)
+47|Clean architecture series|Basic skeleton|[Day 47](./week07/day47)
