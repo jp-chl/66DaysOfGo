@@ -57,3 +57,4 @@ Here's my knowledge base of what I've done in this challenge.
 46|Clean architecture series|Basic skeleton|[Day 46](./week07/day46)
 47|Clean architecture series|Basic skeleton|[Day 47](./week07/day47)
 48|Clean architecture series|Basic skeleton|[Day 48](./week07/day48)
+49|Clean architecture series|Basic skeleton|[Day 48](./week07/day49)
