@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Sep 09, 2023_.
+* _Last update: Sep 12, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -58,5 +58,6 @@ Here's my knowledge base of what I've done in this challenge.
 47|Clean architecture series|Basic skeleton|[Day 47](./week07/day47)
 48|Clean architecture series|Basic skeleton|[Day 48](./week07/day48)
 49|Clean architecture series|Basic skeleton|[Day 49](./week07/day49)
-50|Clean architecture series|Basic skeleton|[Day 50](./week08/day50)
-51|Clean architecture series|Basic skeleton|[Day 51](./week08/day51)
+50|Clean architecture series|Basic skeleton (complete)|[Day 50](./week08/day50)
+51|Clean architecture series|Basic skeleton (Mongo driver, native http)|[Day 51](./week08/day51)
+52|Clean architecture series|Basic skeleton (Post to save into Mongo)|[Day 52](./week08/day52)
