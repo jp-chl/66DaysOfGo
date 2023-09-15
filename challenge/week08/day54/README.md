@@ -135,7 +135,7 @@ ok      example.com    10.501s
 ```
 
 ```bash
-go test -cpu=2 -bench=.      ✔  took 16s   at 22:26:32 
+go test -cpu=2 -bench=.
 goos: darwin
 goarch: amd64
 pkg: example.com
