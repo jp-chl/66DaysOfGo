@@ -62,4 +62,5 @@ Here's my knowledge base of what I've done in this challenge.
 51|Clean architecture series|Basic skeleton (Mongo driver, native http)|[Day 51](./week08/day51)
 52|Clean architecture series|Basic skeleton (Post to save into Mongo)|[Day 52](./week08/day52)
 53|General|SingleFlight|[Day 53](./week08/day53)
-53|General|Running benchmarks|[Day 54](./week08/day54)
+54|General|Running benchmarks|[Day 54](./week08/day54)
+55|General|Good and bad practices|[Day 54](./week08/day55)
