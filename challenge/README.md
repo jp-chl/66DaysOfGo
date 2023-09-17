@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Sep 13, 2023_.
+* _Last update: Sep 14, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -64,3 +64,4 @@ Here's my knowledge base of what I've done in this challenge.
 53|General|SingleFlight|[Day 53](./week08/day53)
 54|General|Running benchmarks|[Day 54](./week08/day54)
 55|General|Good and bad practices|[Day 55](./week08/day55)
+56|General|Good and bad practices|[Day 56](./week08/day56)
