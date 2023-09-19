@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Sep 17, 2023_.
+* _Last update: Sep 18, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -66,3 +66,4 @@ Here's my knowledge base of what I've done in this challenge.
 55|General|Good and bad practices|[Day 55](./week08/day55)
 56|General|Good and bad practices|[Day 56](./week08/day56)
 57|General|Good and bad practices|[Day 57](./week08/day57)
+58|Interview questions|LinkedIn assessment sample|[Day 58](./week08/day58)
