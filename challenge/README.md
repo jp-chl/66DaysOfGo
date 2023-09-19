@@ -65,5 +65,5 @@ Here's my knowledge base of what I've done in this challenge.
 54|General|Running benchmarks|[Day 54](./week08/day54)
 55|General|Good and bad practices|[Day 55](./week08/day55)
 56|General|Good and bad practices|[Day 56](./week08/day56)
-57|General|Good and bad practices|[Day 57](./week08/day57)
-58|Interview questions|LinkedIn assessment sample|[Day 58](./week08/day58)
+57|General|Good and bad practices|[Day 57](./week09/day57)
+58|Interview questions|LinkedIn assessment sample|[Day 58](./week09/day58)
