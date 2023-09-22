@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Sep 20, 2023_.
+* _Last update: Sep 21, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -69,3 +69,4 @@ Here's my knowledge base of what I've done in this challenge.
 58|Interview questions|LinkedIn assessment sample|[Day 58](./week09/day58)
 59|Interview questions|50 questions (part 1)|[Day 59](./week09/day59)
 60|Interview questions|50 questions (part 2)|[Day 60](./week09/day60)
+61|Interview questions|From TopTal|[Day 61](./week09/day61)
