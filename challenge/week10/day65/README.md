@@ -14,6 +14,3 @@ Today I've continued with interview questions, by watching more Go interview vid
 - [https://hashdork.com/top-golang-interview-questions/](https://hashdork.com/top-golang-interview-questions/)
 - [https://www.softkraft.co/top-15-golang-interview-questions/](https://www.softkraft.co/top-15-golang-interview-questions/)
 - [https://www.interviewbit.com/golang-interview-questions/](https://www.interviewbit.com/golang-interview-questions/)
-- []()
-- []()
-
