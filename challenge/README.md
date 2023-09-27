@@ -4,7 +4,7 @@ Here's my knowledge base of what I've done in this challenge.
 
 * _Start date: Jul 13, 2023_.
 
-* _Last update: Sep 25, 2023_.
+* _Last update: Sep 26, 2023_.
 
 ---
 **Day**|**About**|**Summary**|**Detail**
@@ -74,3 +74,4 @@ Here's my knowledge base of what I've done in this challenge.
 63|Interview questions|From Udemy blog|[Day 63](./week09/day63)
 64|Interview questions|Interview video|[Day 64](./week10/day64)
 65|Interview questions|More videos|[Day 65](./week10/day65)
+66|General|Generics|[Day 66](./week10/day66)
